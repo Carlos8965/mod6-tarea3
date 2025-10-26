@@ -10,7 +10,7 @@ class Rating extends Model
     use HasFactory;
 
     /**
-     * The attributes that are mass assignable.
+     * Los atributos que son asignables en masa.
      *
      * @var array<int, string>
      */
@@ -22,7 +22,7 @@ class Rating extends Model
     ];
 
     /**
-     * Get the attributes that should be cast.
+     * Obtener los atributos que deben ser convertidos.
      *
      * @return array<string, string>
      */
